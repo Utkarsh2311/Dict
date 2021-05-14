@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 import json
 import os
 from difflib import get_close_matches
