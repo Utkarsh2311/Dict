@@ -30,4 +30,5 @@ def out():
 			print(i)
 	else: print(output)
 
-out()
+if __name__=='__main__':
+	out()
