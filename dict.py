@@ -1,7 +1,9 @@
 import json
+import os
 from difflib import get_close_matches
 
-data=json.load(open('/data/data.json'))
+dir=os.path.abspath(os.path.dirname(__name__))
+data=json.load(open(dir+'/data/data.json'))
 
 def dict(word):
 	word=word.lower()
